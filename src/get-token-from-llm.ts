@@ -12,6 +12,7 @@ export async function getTokenFromLLM(contents: string): Promise<string> {
             {"role": "user", "content": contents}
         ]
     });
+    
 
     return completion.choices[0].message.content ?? "null";
 }
