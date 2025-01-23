@@ -10,6 +10,7 @@ interface Tweet {
 
 
 export async function getTweets(userName: string): Promise<Tweet[]> {
+    //Got from Rapid API Postman requets we made
 
     let config = {
         method: 'get',
