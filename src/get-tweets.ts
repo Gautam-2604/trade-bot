@@ -10,7 +10,7 @@ interface Tweet {
 
 
 export async function getTweets(userName: string): Promise<Tweet[]> {
-    //Got from Rapid API Postman requets we made
+    //Got from Rapid API Postman requets we made, there, read the documentation, and read the graphql query sent, there you can find this
 
     let config = {
         method: 'get',
